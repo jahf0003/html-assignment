@@ -7,12 +7,13 @@ body {
 #my-image {
     box-shadow: 0 0 22px 3px black;
   }
-a {
-    background-color: #ffffff;
-    color: #ff0000;
+  a {
+    background-color: #212121;
+    border: 3px solid #ff0000;
+    color: #6600ff;
   }
   a:hover, a:focus {
-    background-color: #ffffff;
+    background-color: #ff000000;
     color: #212121;
   }
 #my-image:hover {
@@ -22,6 +23,10 @@ a {
   li:hover {
     color: red;
   }
-ul {
-  list-style-type: square;
-}
+  body {
+    background-color: #4B0082;
+  }
+  a {
+    text-decoration: none;
+    border-bottom: none;
+  }
