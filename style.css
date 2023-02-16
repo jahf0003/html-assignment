@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+  }
+#my-image {
+    box-shadow: 0 0 22px 3px black;
+  }
+a {
+    background-color: #ffffff;
+    color: #ff0000;
+  }
+  a:hover, a:focus {
+    background-color: #ffffff;
+    color: #212121;
+  }
+#my-image:hover {
+    opacity: 0;
+    transition: opacity 0.07s;
+  } 
+  li:hover {
+    color: red;
+  }
+ul {
+  list-style-type: square;
+}
